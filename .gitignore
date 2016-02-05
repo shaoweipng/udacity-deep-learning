@@ -62,6 +62,8 @@ target/
 .ipynb_checkpoints
 
 # Working files
+notMNIST_large
+notMNIST_small
 *.tar.gz
 *.png
 *.pickle
