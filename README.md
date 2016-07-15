@@ -4,6 +4,8 @@ Assignments of the Udacity MOOC Deep Learning
 
 This repository stores the assignments I have done during the [Udacity MOOC on Deep Learning][udacity-deep-learning]. The course is free but there is no support expect if you register to a [nanodegree program][udacity-nanodegree]. That's why I have I tried to comment as much as possible my results, you may find them useful.
 
+**Disclaimer:** there is probably a code of conduct if you are enrolled in the nanodegree. Copying the code from the repository and pretending it to be sure would be bad. Even looking into it may be an infringement. Talk to your instructor.
+
 ## Installation and setup
 
 Note that 4 GB of RAM are short to run the notebooks, 8 GB will be more comfortable.
