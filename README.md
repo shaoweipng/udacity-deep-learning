@@ -6,7 +6,9 @@ This repository stores the assignments I have done during the [Udacity MOOC on D
 
 ## Installation and setup
 
-I already had [Jupyter Notebook][jupyter] running on my Mac. For reference, it has been provided by [Anaconda][anaconda] which is my Python bundle of choice.
+Note that 4 GB of RAM are short to run the notebooks, 8 GB will be more comfortable.
+
+I already had [Jupyter Notebook][jupyter] running on my Mac. For reference, it has been shipped with [Anaconda][anaconda] which is my Python bundle of choice. It works on Linux as well.
 
 The only module to install from there is TensorFlow. The installation from ``pip`` is fine to me, the only trick is that the version 0.6.0 has been required (not the latest one). You can refer to the [official documentation][tensorflow-pip-install]. So the installation is done with a single command line:
 
