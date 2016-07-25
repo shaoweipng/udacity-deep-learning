@@ -1,10 +1,19 @@
 
-# udacity-deep-learning
-Assignments of the Udacity MOOC Deep Learning
 
-This repository stores the assignments I have done during the [Udacity MOOC on Deep Learning][udacity-deep-learning]. The course is free but there is no support expect if you register to a [nanodegree program][udacity-nanodegree]. That's why I have I tried to comment as much as possible my results, you may find them useful.
+# udacity-deep-learning
+Udacity MOOC Deep Learning with Google assignments
+
+This repository contains the assignments I have done during the [Udacity MOOC on Deep Learning with Google][udacity-deep-learning]. The course is free but there is no support expect if you register to a [nanodegree program][udacity-nanodegree]. That's why I'm sharing my homeworks with as much comments as possible, you may find them useful.
 
 **Disclaimer:** there is probably a code of conduct if you are enrolled in the nanodegree. Copying the code from the repository and pretending it to be sure would be bad. Even looking into it may be an infringement. Talk to your instructor.
+
+The course is just great. I have posted an [extended review of it on my blog][ab.com-udacity-deep-learning]. You will use and develop neural networks for image recognition with convolution, natural language processing with embeddings and character based text generation with RNN/LTSM.
+
+See below one of the outcome of the course, a t-SNE projection of word vectors, clustered by similarity.
+
+![t-SNE projection of word vectors clustered by similarities][tsne-word-vectors]
+
+Amazing, isn't it?
 
 ## Installation and setup
 
@@ -38,6 +47,7 @@ To do so, just fork this repository.
  
 [udacity-deep-learning]: https://www.udacity.com/course/deep-learning--ud730
 [udacity-nanodegree]: https://www.udacity.com/nanodegree
+[ab.com-udacity-deep-learning]: http://arnaudbertrand.io/blog/2016/06/21/deep-learning-and-tensorflow-mooc-udacity-with-google/
 
 [jupyter]: http://jupyter.org/
 [anaconda]: https://www.continuum.io/
@@ -48,3 +58,5 @@ To do so, just fork this repository.
 [notmnist-large]: http://commondatastorage.googleapis.com/books1000/notMNIST_large.tar.gz
 [notmnist-small]: http://commondatastorage.googleapis.com/books1000/notMNIST_small.tar.gz
 [lenet-5]: http://yann.lecun.com/exdb/publis/pdf/lecun-98.pdf
+
+[tsne-word-vectors]: https://raw.githubusercontent.com/Arn-O/udacity-deep-learning/master/assets/img/word-similarities-tsne.png "t-SNE projection of word vectors clustered by similarities"
