@@ -21,12 +21,12 @@ Since the datasets are loaded in memory, 4 GB of RAM are short to run the notebo
 
 I recommend to install the Python bundle [Anaconda][anaconda]. All the assignments have been done with Python 2.7, so download the installation script accordingly. You can then install [Jupyter Notebook][jupyter] from ``conda``. 
 
-The next step is to install TensorFlow. At the time of writing, the latest release is r0.9, after several upgrade during the course. You can refer to the [official documentation][tensorflow-anaconda-install]. Here is the list of commands:
+The next step is to install TensorFlow. At the time of writing, the latest release is r0.9, after several upgrades during the course. You can refer to the [official documentation][tensorflow-anaconda-install]. Here is the list of commands:
 
 ```
 $ conda create -n tensorflow python=2.7
 $ source activate tensorflow
-(tensorflow)$ eexport TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/tensorflow-0.9.0-py2-none-any.whl
+(tensorflow)$ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/tensorflow-0.9.0-py2-none-any.whl
 (tensorflow)$ pip install --upgrade --ignore-installed $TF_BINARY_URL
 ```
 
