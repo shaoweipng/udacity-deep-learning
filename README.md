@@ -7,7 +7,7 @@ This repository contains the assignments I have done during the [Udacity MOOC on
 
 **Disclaimer:** there is probably a code of conduct if you are enrolled in the nanodegree. Copying the code from the repository and pretending it to be sure would be bad. Even looking into it may be an infringement. Talk to your instructor.
 
-The course is just great. I have posted an [extended review of it on my blog][ab.com-udacity-deep-learning]. You will use and develop neural networks for image recognition with convolution, natural language processing with embeddings and character based text generation with RNN/LTSM.
+The course is just great! You will use and develop neural networks for image recognition with convolution, natural language processing with embeddings and character based text generation with RNN/LTSM.
 
 See below an outcome of one of the assignments, a t-SNE projection of word vectors, clustered by similarity.
 
@@ -19,7 +19,7 @@ Amazing, isn't it?
 
 Since the datasets are loaded in memory, 4 GB of RAM are short to run the notebooks, 8 GB will be more comfortable. The instructions are given for Mac OS, but it works on Linux as well.
 
-I recommend to install the Python bundle [Anaconda][anaconda]. All the assignments have been done with Python 2.7, so download the installation script accordingly. You can then install [Jupyter Notebook][jupyter] from ``conda``. 
+I recommend to install the Python bundle [Anaconda][anaconda]. All the assignments have been done with Python 2.7, so download the installation script accordingly. You can then install [Jupyter Notebook][jupyter] from ``conda``.
 
 The next step is to install TensorFlow. At the time of writing, the latest release is r0.9, after several upgrades during the course. You can refer to the [official documentation][tensorflow-anaconda-install]. Here is the list of commands:
 
@@ -40,17 +40,16 @@ From the repository root, start the Notebook server with ``jupyter notebook``.
 
 This repository is mainly for my own purpose but I would be happy to share some thoughts with you. There are probably many ways to improve and tune the various neural nets.
 
-To do so, just fork this repository. 
+To do so, just fork this repository.
 
 ## Credits
 
 + all the assignments come from [Udacity][udacity-deep-learning] and the [TensorFlow repository][tensorflow-repo]
 + the weird fonts dataset used for this image recognition is the [notMNIST dataset][notmnist] from Yaroslav Bulatov (there are also a download mirrors for the [large][notmnist-large] and [small][notmnist-small] dataset)
 + the final neural network of the assignment #4 is loosely inspired by the notorious LeNet-5, as described in the research paper ["Gradient-Based Learning Applied to Document Recognition"][lenet-5] by Y. LeCun, L. Bottou, Y. Bengio and P. Haffner
- 
+
 [udacity-deep-learning]: https://www.udacity.com/course/deep-learning--ud730
 [udacity-nanodegree]: https://www.udacity.com/nanodegree
-[ab.com-udacity-deep-learning]: http://arnaudbertrand.io/blog/2016/06/21/deep-learning-and-tensorflow-mooc-udacity-with-google/
 
 [jupyter]: http://jupyter.org/
 [anaconda]: https://www.continuum.io/
